@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owen Gibson - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="My Logo" id="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1><u>Projects</u></h1>
+    
+    <section>
+        <h2>GIBCPU - 8-Bit Custom CPU Design</h2>
+        <img src="images/gibcpu-image.png" alt="GIBCPU Project Image" style="width:356px;height:200px;">
+        <p>Emulated in C, includes Assembler that translates custom Assembly language into bytecode.</p>
+        <p>Features 256 bytes of RAM, 4 registers, 15 custom instructions, and internal modules work asynchronously.</p>
+        <p>Implemented Conway’s Game of Life in available memory.</p>
+        <a href="https://github.com/gibsonow/GIBCPU_Release" target="_blank">View Project on GitHub</a>
+    </section>
+
+    <section>
+        <h2>Senior Project - Inverted Pendulum / DOOM Arcade Machine</h2>
+        <img src="images/inverted-pendulum-image.gif" alt="Inverted Pendulum Project Image" style="width:240px;height:230px;">
+        <p>Demonstration of seL4 Hypervisor running an Inverted Pendulum and DOOM seamlessly in separate Operating Systems.</p>
+        <p>Project run on Xilinx Ultra96v2 FPGA, using custom PCB for driving pendulum motors and reading encoders.</p>
+        <p>Included a comically large red button that restarted DOOM OS to demonstrate uninterrupted pendulum movement.</p>
+    </section>
+
+    <section>
+        <h2>Bedside Sleep Apnea Recording Device</h2>
+        <img src="images/sleep-apnea-device-image.png" alt="Sleep Apnea Device Project Image" style="width:500px;height:350px;">
+        <p>Created a volume-triggered audio recorder using the STM32 Microcontroller Platform on custom PCB.</p>
+        <p>Utilized 32kb Flash memory chip to record audio data, with a fully custom code library for read/writes using SPI.</p>
+        <p>Fully controllable via Bluetooth console communication to manage audio entries and activate data transfer.</p>
+        <p>Developed toolchain that captured data from COM port and saved to file, then converted the data to MP3.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 <a href="mailto:owengibson0@gmail.com" target="_blank">owengibson0@gmail.com</a></p>
+    </footer>
+</body>
+</html>
